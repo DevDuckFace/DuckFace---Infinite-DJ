@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="PUT_YOUR_RELEASE_LINK_HERE"><b>⬇ Download the installer</b></a>
+  <a href="https://github.com/DevDuckFace/DuckFace---Infinite-DJ/releases/download/infinite1.0/DuckFace-InfiniteDJ-Setup-1.0.0.exe"><b>⬇ Download the installer</b></a>
   &nbsp;·&nbsp; Windows 10/11 64-bit
 </p>
 
