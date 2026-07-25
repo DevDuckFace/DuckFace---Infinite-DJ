@@ -13,7 +13,7 @@
 <!-- Replace the URL below with your screenshot (drag an image into a GitHub
      issue to get a permanent link, or commit it to docs/ and point here). -->
 <p align="center">
-  <img src="PUT_YOUR_SCREENSHOT_LINK_HERE" alt="DuckFace - Infinite DJ" width="900">
+  <img src="https://github.com/user-attachments/assets/87b035a9-2470-45b5-993e-72c408ab9f67" alt="DuckFace - Infinite DJ" width="900">
 </p>
 
 ---
