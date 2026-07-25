@@ -151,27 +151,6 @@ Fetched by `build.bat` and shipped in the installer:
 
 ---
 
-## Layout
-
-```
-src/
-  app/       main loop, GLFW window, ImGui
-  audio/     two-deck mixer, crossfade, ducking, FFT
-  core/      config, log, paths, subprocesses, crash handler,
-             native file picker, DPAPI-backed secrets
-  dj/        llama.cpp, TTS (Piper + SAPI5), Hugging Face,
-             model manager, the director
-  i18n/      EN/PT string table
-  net/       HTTP client (WinHTTP) with progress and manual redirects
-  ui/        theme, visualizer, texture cache, screens
-  yt/        yt-dlp facade, playlist queue, saved playlists
-cmake/       dependencies via FetchContent
-installer/   Inno Setup script
-assets/      icon, manifest, version info
-  runtime/   copied next to the .exe at build time (downloaded, not committed)
-```
-
----
 
 ## Troubleshooting
 
