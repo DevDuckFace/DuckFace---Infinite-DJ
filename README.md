@@ -132,36 +132,7 @@ generated and switches on the spot.
 
 ---
 
-## Building
 
-Requirements:
-
-- Windows 10/11 64-bit
-- [CMake](https://cmake.org/download/) 3.21+ and [Ninja](https://ninja-build.org/)
-- MinGW-w64 GCC 13+ (the [MSYS2](https://www.msys2.org/) `mingw-w64-x86_64-gcc`
-  package is what this is developed against) or MSVC 2022
-- [Inno Setup 6](https://jrsoftware.org/isdl.php), only to build the installer
-
-Then:
-
-```bat
-build.bat
-```
-
-That downloads yt-dlp, ffmpeg, Piper and the voices into `assets/runtime/`,
-fetches the C++ dependencies through CMake, and builds
-`build\bin\InfiniteDJ.exe` — a single executable with no DLL dependencies.
-
-```bat
-build.bat installer
-```
-
-Also produces `installer\output\DuckFace-InfiniteDJ-Setup-1.0.0.exe`.
-
-Other switches: `build.bat clean` wipes `build/`, `build.bat nollama` skips
-llama.cpp for a much faster build (the DJ falls back to canned lines).
-
-Nothing is downloaded twice — re-running keeps what is already there.
 
 ### Dependencies
 
@@ -218,11 +189,6 @@ Everything lives in `%LOCALAPPDATA%\InfiniteDJ`:
 
 To symbolise a `crash.log`, add `0x140000000` to the RVA:
 
-```bat
-addr2line -e build\bin\InfiniteDJ.exe -f -C 0x14002E660
-```
-
----
 
 ## Known limits
 
